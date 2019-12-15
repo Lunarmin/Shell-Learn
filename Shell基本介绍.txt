@@ -1,0 +1,21 @@
+Shell基本介绍
+	1、shell介于内核与用户之间，负责命令的解释
+`	2、查看shell种类
+		cat /etc/shells
+		
+		/bin/sh			#bash的快捷方式
+		/bin/bash		#bash是大多数Linux默认的shell	
+		/bin/rbash
+		/bin/dash		# 小巧、高效，功能想比少一点
+		/usr/bin/tmux
+		/usr/bin/screen
+	3、shell脚本
+		需要执行的命令保存到文本中，按照顺序执行。他是解释型，不需要编译
+
+	4、使用场景
+		自动化软件部署
+		自动化管理
+		自动化分析处理
+		自动化备份
+		自动化监控脚本
+	
